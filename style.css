@@ -1,0 +1,80 @@
+ body{
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+ }
+
+header {
+    width: 90%;
+    margin: auto;
+    padding: 20px 40px;
+}
+
+ img{
+ 	 border-radius: 100%;
+ 	 width: 15vh;
+ 	 margin-right: 3vw;
+ 	 margin-left: 3vw;
+ }
+
+ header img{
+ 	 border-radius: 100%;
+ 	 width: 10vh;
+ 	 margin-right: 3vw;
+ 	 margin-left: 3vw;
+ }
+
+.col-xs-3{
+ 	align-items: center;   
+ 	justify-content: center;
+ 	display: flex;
+ 	 }
+.col-xs-9, .col-xs-12{
+ 	position: inherit;
+    /*display: flex;*/
+ 	justify-content: center;
+    align-items: center;
+ }
+
+.row {
+    height: 15vh;
+}
+
+header .col-xs-12{
+    position: absolute;
+    right: 5vw;
+}
+
+header .row {
+    height: 10vh;
+}
+
+ .card, button{
+ 	width:90%;
+ 	margin: auto;
+ 	margin-bottom: 10px;
+ }
+
+ .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: none;
+}
+ .card-body {
+	border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.btn-link, .btn-link:hover, .btn-link:active, .btn-link:focus{
+	 color: inherit; 
+	 text-decoration: none;
+}
+
+a, a:hover, a:active, a:focus{
+	 color: #6e0d3a; 
+	 text-decoration: none;
+}
+
+.text {
+	display: inline-block;
+    position: absolute;
+}
+
